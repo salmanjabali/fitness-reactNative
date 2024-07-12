@@ -16,9 +16,13 @@
     "@expo/vector-icons": "^13.0.0",
     "@react-navigation/native": "^6.0.2",
     "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
     "deprecated-react-native-prop-types": "^5.0.0",
+    "dotenv": "^16.4.5",
     "expo": "~49.0.23",
     "expo-font": "~11.4.0",
+    "expo-image": "~1.3.5",
     "expo-linear-gradient": "~12.3.0",
     "expo-linking": "~5.0.2",
     "expo-router": "^2.0.0",
@@ -26,6 +30,8 @@
     "expo-status-bar": "~1.6.0",
     "expo-system-ui": "~2.4.0",
     "expo-web-browser": "~12.3.2",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.2",
     "nativewind": "^2.0.11",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -39,7 +45,7 @@
     "react-native-vector-icons": "^10.1.0",
     "react-native-virtualized-view": "^1.0.0",
     "react-native-web": "~0.19.6",
-    "expo-image": "~1.3.5"
+    "sequelize": "^6.37.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

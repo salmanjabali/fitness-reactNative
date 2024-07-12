@@ -46,7 +46,7 @@ export default function Index() { // Define Index component as a default export
                 <Animated.View entering={FadeInDown.delay(200).springify()} >
                     {/* Animated view for the button, fading in from the top with a delay */}
                     <TouchableOpacity
-                        onPress={() => router.push('home')}
+                        onPress={() => router.push('register')}
                         style={{ width: wp(80), height: hp(7) }}
                         className="bg-rose-500 flex items-center justify-center mx-auto rounded-full border-[2px] border-neutral-200"
                     >

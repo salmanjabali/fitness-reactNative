@@ -30,7 +30,7 @@ const ExerciseCard = ({item , router, index})=> {
     return (
         <Animated.View entering={FadeInDown.duration(400).delay(index*200).springify()}>
 
-            <TouchableOpacity onPress={() => router.push({pathname: '/exerciseDetails', params: item})} className="flex py-3 space-y-2">
+            <View onPress={() => router.push({pathname: '/exerciseDetails', params: item})} className="flex py-3 space-y-2">
                 <View className="bg-neutral-200 shadow rounded-[25px]">
                     <Image
                     source={{uri: item.gifUrl}}
@@ -46,7 +46,7 @@ const ExerciseCard = ({item , router, index})=> {
                 { item?.name?.length > 20 ? item.name.slice(0,20)+'...' : item?.name }
                 </Text>
 
-            </TouchableOpacity>
+            </View>
         </Animated.View>
     )
 }
